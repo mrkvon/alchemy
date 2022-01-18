@@ -1,0 +1,25 @@
+{
+  "name": "gis2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "mrkvon <mrkvon@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "format": "prettier 'src/**/*.ts' --write",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "transform-coordinates": "^1.0.0"
+  }
+}
