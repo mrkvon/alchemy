@@ -1,3 +1,5 @@
+import { walkthrough, checkHistory } from './walkthrough'
 ;(() => {
-  console.log('Hello World')
+  // checkHistory()
+  walkthrough()
 })()
