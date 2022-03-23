@@ -1,6 +1,6 @@
 {
   "name": "alchemy-walkthrough",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Little Alchemy 2 Walkthrough",
   "author": "mrkvon <mrkvon@protonmail.com> (https://mrkvon.org)",
   "license": "MIT",
@@ -42,6 +42,5 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
